@@ -27,7 +27,7 @@ public class MyFirstServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("<H1>Served at: ").append(request.getContextPath()).append("</H1>");
+		response.getWriter().append("<H1>MyFirstServlet - Served at: ").append(request.getContextPath()).append("</H1>");
 	}
 
 	/**
